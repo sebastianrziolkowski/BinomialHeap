@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/C++/BinomialHeap/main.cpp
+iostream
+-
+vector
+-
+src/services/TimerService.h
+E:/C++/BinomialHeap/src/services/TimerService.h
+src/BinomialHeap.h
+E:/C++/BinomialHeap/src/BinomialHeap.h
+src/services/FillHeapService.h
+E:/C++/BinomialHeap/src/services/FillHeapService.h
+
+E:/C++/BinomialHeap/src/BinomialHeap.h
+
+E:/C++/BinomialHeap/src/services/FillHeapService.h
+iostream
+-
+../BinomialHeap.h
+E:/C++/BinomialHeap/src/BinomialHeap.h
+
+E:/C++/BinomialHeap/src/services/TimerService.h
+ctime
+-
+
