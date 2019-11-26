@@ -8,16 +8,16 @@
 using namespace std;
 
 BinomialHeap::BinomialHeap() {
-    head = NULL;
+    head = nullptr;
 
 }
 
 node *BinomialHeap::CreateNode(int x) {
     node *n = new node();
     n->key = x;
-    n->parent = NULL;
-    n->child = NULL;
-    n->next = NULL;
+    n->parent = nullptr;
+    n->child = nullptr;
+    n->next = nullptr;
     n->grade = 0;
     return n;
 }
@@ -25,8 +25,8 @@ node *BinomialHeap::CreateNode(int x) {
 
 void BinomialHeap::insert(int x) {
     if (head) {
-        node *aux = CreateNode(x);
-        head = union_tree(head, aux);
+        node *newNode = CreateNode(x);
+        head = union_tree(head, newNode);
     } else {
 
         head = (CreateNode(x));
@@ -57,7 +57,7 @@ node *BinomialHeap::merge_tree(node *Heap_1, node *Heap_2) {
     }
     tail = head;
 
-    while (It_heap1 != NULL && It_heap2 != NULL) {
+    while (It_heap1 != nullptr && It_heap2 != nullptr) {
 
         if (It_heap1->grade <= It_heap2->grade) {
             tail->next = It_heap1;
@@ -70,7 +70,7 @@ node *BinomialHeap::merge_tree(node *Heap_1, node *Heap_2) {
         tail = tail->next;
     }
 
-    if (It_heap1 != NULL) {
+    if (It_heap1 != nullptr) {
         tail->next = It_heap1;
     } else tail->next = It_heap2;
 
@@ -80,15 +80,15 @@ node *BinomialHeap::merge_tree(node *Heap_1, node *Heap_2) {
 
 node *BinomialHeap::union_tree(node *Heap_1, node *Heap_2) {
 
-    node *Heap_list = merge_tree(Heap_1, Heap_2);
-    if (Heap_list != NULL) {
+    node *heapList = merge_tree(Heap_1, Heap_2);
+    if (heapList != nullptr) {
 
-        node *aux = Heap_list;
+        node *aux = heapList;
         node *next_aux = aux->next;
-        node *prev_aux = NULL;
+        node *prev_aux = nullptr;
 
-        while (next_aux != NULL) {
-            if (aux->grade != next_aux->grade || (next_aux->next != NULL && next_aux->next->grade == aux->grade)) {
+        while (next_aux != nullptr) {
+            if (aux->grade != next_aux->grade || (next_aux->next != nullptr && next_aux->next->grade == aux->grade)) {
                 prev_aux = aux;
                 aux = next_aux;
             } else {
@@ -97,7 +97,7 @@ node *BinomialHeap::union_tree(node *Heap_1, node *Heap_2) {
                     link_tree(next_aux, aux);
 
                 } else {
-                    if (prev_aux == NULL) Heap_list = next_aux;
+                    if (prev_aux == nullptr) heapList = next_aux;
                     else prev_aux->next = next_aux;
                     link_tree(aux, next_aux);
                     aux = next_aux;
@@ -106,12 +106,12 @@ node *BinomialHeap::union_tree(node *Heap_1, node *Heap_2) {
             next_aux = aux->next;
         }
     }
-    return Heap_list;
+    return heapList;
 }
 
 void BinomialHeap::join(BinomialHeap *h1) {
     union_tree(head, h1->head);
-    head = NULL;
+    head = nullptr;
 }
 
 
@@ -146,13 +146,13 @@ void BinomialHeap::printTree(node *h) {
         std::cout << std::endl
                   << "|key:" << h->key
                   << ", grade:" << h->grade;
-        if (h->parent != NULL) {
+        if (h->parent != nullptr) {
             std::cout << ", parent:" << h->parent->key;
         }
-        if (h->child != NULL) {
+        if (h->child != nullptr) {
             std::cout << ", child:" << h->child->key;
         }
-        if (h->next != NULL) {
+        if (h->next != nullptr) {
             std::cout << ", next:" << h->next->key;
         }
         std::cout << "|";
@@ -163,6 +163,20 @@ void BinomialHeap::printTree(node *h) {
 
 void BinomialHeap::printHeap() {
     this->printTree(this->head);
+}
+
+node *BinomialHeap::getMin() {
+    node *ptr = this->head;
+
+    if (ptr == nullptr) return nullptr;
+    node *minNode = ptr;
+    while (ptr->next) {
+        ptr = ptr->next;
+        if (minNode->key > ptr->key) {
+            minNode = ptr;
+        }
+    }
+    return minNode;
 }
 
 node *BinomialHeap::B_head() {

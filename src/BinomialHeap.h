@@ -40,6 +40,8 @@ public:
 
     void join(BinomialHeap *);
 
+    node *getMin();
+
     node *B_head();
 };
 

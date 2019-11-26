@@ -13,20 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="06f05e1c-595e-4d96-9720-a9680c35ca46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinomialHeap.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinomialHeap.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinomialHeap.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinomialHeap.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/src/BinomialHeap.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/src/BinomialHeap.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/constVariable.h" beforeDir="false" afterPath="$PROJECT_DIR$/resources/constVariable.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinomialHeap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinomialHeap.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinomialHeap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinomialHeap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/TimerService.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/TimerService.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574601798107</updated>
       <workItem from="1574601799377" duration="1908000" />
-      <workItem from="1574605074826" duration="16577000" />
+      <workItem from="1574605074826" duration="19350000" />
+      <workItem from="1574782683296" duration="574000" />
     </task>
     <servers />
   </component>

@@ -10,6 +10,7 @@ int main() {
 
     heapManualInsert(heap);
 
+    std::cout << std::endl << "Min key in heap: " << heap->getMin()->key;
 
     delete timerService;
     return 0;
