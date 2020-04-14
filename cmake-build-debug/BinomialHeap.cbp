@@ -85,6 +85,9 @@
 		<Unit filename="E:/C++/BinomialHeap/main.cpp">
 			<Option target="BinomialHeap"/>
 		</Unit>
+		<Unit filename="E:/C++/BinomialHeap/resources/SDLparameters.h">
+			<Option target="BinomialHeap"/>
+		</Unit>
 		<Unit filename="E:/C++/BinomialHeap/src/BinomialHeap.cpp">
 			<Option target="BinomialHeap"/>
 		</Unit>
@@ -92,6 +95,9 @@
 			<Option target="BinomialHeap"/>
 		</Unit>
 		<Unit filename="E:/C++/BinomialHeap/src/services/FillHeapService.h">
+			<Option target="BinomialHeap"/>
+		</Unit>
+		<Unit filename="E:/C++/BinomialHeap/src/services/SDL_services/initSDL.h">
 			<Option target="BinomialHeap"/>
 		</Unit>
 		<Unit filename="E:/C++/BinomialHeap/src/services/TimerService.h">

@@ -93,6 +93,8 @@ BinomialHeap_EXTERNAL_OBJECTS =
 BinomialHeap.exe: CMakeFiles/BinomialHeap.dir/main.cpp.obj
 BinomialHeap.exe: CMakeFiles/BinomialHeap.dir/src/BinomialHeap.cpp.obj
 BinomialHeap.exe: CMakeFiles/BinomialHeap.dir/build.make
+BinomialHeap.exe: C:/Program\ Files\ (x86)/Dev-Cpp/MinGW64/lib/libSDL2main.a
+BinomialHeap.exe: C:/Program\ Files\ (x86)/Dev-Cpp/MinGW64/lib/libSDL2.dll.a
 BinomialHeap.exe: CMakeFiles/BinomialHeap.dir/linklibs.rsp
 BinomialHeap.exe: CMakeFiles/BinomialHeap.dir/objects1.rsp
 BinomialHeap.exe: CMakeFiles/BinomialHeap.dir/link.txt

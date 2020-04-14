@@ -585,3 +585,70 @@ mingw32-make.exe[1]: Leaving directory 'E:/C++/BinomialHeap/cmake-build-debug/CM
     Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:0cxx_variable_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: E:/C++/BinomialHeap/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_04b26/fast && C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_04b26.dir\build.make CMakeFiles/cmTC_04b26.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/C++/BinomialHeap/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04b26.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe    -o CMakeFiles\cmTC_04b26.dir\CheckIncludeFile.c.obj   -c E:\C++\BinomialHeap\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_04b26.exe
+"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_04b26.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_04b26.dir/objects.a
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_04b26.dir/objects.a @CMakeFiles\cmTC_04b26.dir\objects1.rsp
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_04b26.dir/objects.a -Wl,--no-whole-archive  -o cmTC_04b26.exe -Wl,--out-implib,libcmTC_04b26.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_04b26.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/C++/BinomialHeap/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: E:/C++/BinomialHeap/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_60b63/fast && C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_60b63.dir\build.make CMakeFiles/cmTC_60b63.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/C++/BinomialHeap/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60b63.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe    -o CMakeFiles\cmTC_60b63.dir\CheckIncludeFile.c.obj   -c E:\C++\BinomialHeap\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_60b63.exe
+"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_60b63.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_60b63.dir/objects.a
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_60b63.dir/objects.a @CMakeFiles\cmTC_60b63.dir\objects1.rsp
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_60b63.dir/objects.a -Wl,--no-whole-archive  -o cmTC_60b63.exe -Wl,--out-implib,libcmTC_60b63.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_60b63.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/C++/BinomialHeap/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: E:/C++/BinomialHeap/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_d390c/fast && C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d390c.dir\build.make CMakeFiles/cmTC_d390c.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/C++/BinomialHeap/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d390c.dir/src.c.obj
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\cmTC_d390c.dir\src.c.obj   -c E:\C++\BinomialHeap\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_d390c.exe
+"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d390c.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d390c.dir/objects.a
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_d390c.dir/objects.a @CMakeFiles\cmTC_d390c.dir\objects1.rsp
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\gcc.exe  -DCMAKE_HAVE_LIBC_PTHREAD    -Wl,--whole-archive CMakeFiles\cmTC_d390c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d390c.exe -Wl,--out-implib,libcmTC_d390c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d390c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/C++/BinomialHeap/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

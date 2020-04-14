@@ -5,7 +5,7 @@
       <config projectName="BinomialHeap" targetName="BinomialHeap" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
@@ -13,16 +13,20 @@
   <component name="ChangeListManager">
     <list default="true" id="06f05e1c-595e-4d96-9720-a9680c35ca46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinomialHeap.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinomialHeap.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/BinomialHeap.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BinomialHeap.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/linklibs.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/src/BinomialHeap.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinomialHeap.dir/src/BinomialHeap.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinomialHeap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinomialHeap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinomialHeap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinomialHeap.h" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,22 +43,24 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\C++\BinomialHeap\src\services" />
+      <recent name="E:\C++\BinomialHeap" />
+      <recent name="E:\C++\BinomialHeap\src" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="BinomialHeap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinomialHeap" TARGET_NAME="BinomialHeap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BinomialHeap" RUN_TARGET_NAME="BinomialHeap">
@@ -76,6 +82,12 @@
       <workItem from="1574601799377" duration="1908000" />
       <workItem from="1574605074826" duration="19350000" />
       <workItem from="1574782683296" duration="574000" />
+      <workItem from="1574849153625" duration="270000" />
+      <workItem from="1574889717778" duration="287000" />
+      <workItem from="1576583202338" duration="1210000" />
+      <workItem from="1576602188230" duration="1218000" />
+      <workItem from="1586861775010" duration="4068000" />
+      <workItem from="1586870333650" duration="5285000" />
     </task>
     <servers />
   </component>
@@ -94,5 +106,35 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1586875186253">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.1.1366.728@0.0.1366.728" timestamp="1586875186253" />
+    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1586875186252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728/1366.1.1366.728@0.0.1366.728" timestamp="1586875186252" />
+    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1586875186252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728/1366.1.1366.728@0.0.1366.728" timestamp="1586875186252" />
+    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1586875186252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728/1366.1.1366.728@0.0.1366.728" timestamp="1586875186252" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1586875612452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.1.1366.728@0.0.1366.728" timestamp="1586875612452" />
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1586870333904">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.1.1366.728@0.0.1366.728" timestamp="1586870333904" />
+    <state x="380" y="96" width="606" height="536" key="find.popup" timestamp="1586874478141">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="96" width="606" height="536" key="find.popup/0.0.1366.728/1366.1.1366.728@0.0.1366.728" timestamp="1586874478141" />
   </component>
 </project>

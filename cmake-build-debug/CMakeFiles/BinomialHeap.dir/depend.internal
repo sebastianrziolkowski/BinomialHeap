@@ -3,8 +3,10 @@
 
 CMakeFiles/BinomialHeap.dir/main.cpp.obj
  E:/C++/BinomialHeap/main.cpp
+ E:/C++/BinomialHeap/resources/SDLparameters.h
  E:/C++/BinomialHeap/src/BinomialHeap.h
  E:/C++/BinomialHeap/src/services/FillHeapService.h
+ E:/C++/BinomialHeap/src/services/SDL_services/initSDL.h
  E:/C++/BinomialHeap/src/services/TimerService.h
 CMakeFiles/BinomialHeap.dir/src/BinomialHeap.cpp.obj
  E:/C++/BinomialHeap/src/BinomialHeap.cpp

@@ -6,11 +6,41 @@
 
 #IncludeRegexTransform: 
 
-E:/C++/BinomialHeap/src/BinomialHeap.cpp
-bits/stdc++.h
+E:/C++/BinomialHeap/main.cpp
+iostream
 -
-BinomialHeap.h
+vector
+-
+src/services/TimerService.h
+E:/C++/BinomialHeap/src/services/TimerService.h
+src/BinomialHeap.h
 E:/C++/BinomialHeap/src/BinomialHeap.h
+src/services/FillHeapService.h
+E:/C++/BinomialHeap/src/services/FillHeapService.h
+src/services/SDL_services/initSDL.h
+E:/C++/BinomialHeap/src/services/SDL_services/initSDL.h
+SDL2/SDL.h
+-
+
+E:/C++/BinomialHeap/resources/SDLparameters.h
 
 E:/C++/BinomialHeap/src/BinomialHeap.h
+
+E:/C++/BinomialHeap/src/services/FillHeapService.h
+iostream
+-
+../BinomialHeap.h
+E:/C++/BinomialHeap/src/BinomialHeap.h
+
+E:/C++/BinomialHeap/src/services/SDL_services/initSDL.h
+SDL2/SDL.h
+-
+iostream
+-
+../../../resources/SDLparameters.h
+E:/C++/BinomialHeap/resources/SDLparameters.h
+
+E:/C++/BinomialHeap/src/services/TimerService.h
+ctime
+-
 
